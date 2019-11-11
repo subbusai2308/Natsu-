@@ -1,0 +1,9 @@
+<div class="jumbotron text-center">
+    <h3 class="display-3">{{title}}</h3>
+    <p class="lead3">Jot Down Your Ideas</p>
+    {{#if user}}
+         <a href="/ideas/add" class="btn btn-dark btn-lg">Get-Started </a>
+    {{else}}
+          <a href="/users/login" class="btn btn-dark btn-lg" aria-disabled="true">Get-Started </a>
+    {{/if}}
+</div>
